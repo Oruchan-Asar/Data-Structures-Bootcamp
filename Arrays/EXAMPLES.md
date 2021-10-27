@@ -180,7 +180,15 @@ void reverseArray() {
 ### How to convert a byte array to String?  
 ```C
 void byteToString() {
+	int buf[] = {0, 3, 12, 11, 15};
 	
+	int i;
+	for (i = 0; i < 5; i++)
+	{
+    	if (i > 0) printf(":");
+    	printf("%02X", buf[i]);
+	}
+	printf("\n");
 }
 ```
 ### What is the difference between an array and a linked list? (answer)
