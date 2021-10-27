@@ -152,7 +152,23 @@ void quicksort() {
 // removeDuplicate(); 
 
 ### How do you reverse an array in place?
-
+```C
+void reverseArray() {
+	int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+	int len = 10;
+	
+	int i, tmp;
+	for (i = 0; i < len / 2; i++) {
+		tmp = arr[i];
+		arr[i] = arr[len - (i + 1)];
+		arr[len - (i + 1)] = tmp;
+	}
+	
+	for (i = 0; i < len; i++) {
+		printf("%d, ", arr[i]);
+	}
+}
+```
 ### How are duplicates removed from an array without using any library?
 
 // removeDuplicate();
