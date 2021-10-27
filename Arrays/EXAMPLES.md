@@ -133,7 +133,7 @@ void removeDuplicate() {
 }
 
 ```
-### How do you search a target value in a rotated array?
+### How do you search for a target value in a rotated array?
 ```C
 void searchRotated() {
 	
@@ -177,7 +177,7 @@ void reverseArray() {
 
 // removeDuplicate();
 
-### How to convert a byte array to String?  
+### How to convert a byte array to a String?  
 ```C
 void byteToString() {
 	int buf[] = {0, 3, 12, 11, 15};
@@ -193,9 +193,9 @@ void byteToString() {
 ```
 ### What is the difference between an array and a linked list? (answer)
 
- The major difference between Array and Linked list regards to their structure. 
-Arrays are index based data structure where each element associated with an index. ... 
-While a linked list is a data structure which contains a sequence of the elements where each element is linked to its next element.
+The major difference between Array and Linked list regards their structure. 
+Arrays are index-based data structures where each element is associated with an index. ... 
+While a linked list is a data structure that contains a sequence of the elements where each element is linked to its next element.
 
 ### How do you perform a binary search in a given array?
 ```C
@@ -226,7 +226,7 @@ void binarySearch() {
     }
 }
 ```
-### How to find a median of two sorts arrays?
+### How to find a median of two sorts of arrays?
 ```C
 void findMedian() {
 	int arr[] = {1, 5, 3, 6, 8, 2, 4, 7};
