@@ -22,7 +22,7 @@ int main() {
 	return 0;
 }
 ```
-### // How do you find the missing number in a given integer array of 1 to 100? 
+### How do you find the missing number in a given integer array of 1 to 100? 
 ```C
 void missingNumber(int num) {
 	int arr[100];
@@ -42,7 +42,7 @@ void missingNumber(int num) {
 	}
 }
 ```
-### // How do you find the duplicate number on a given integer array? 
+### How do you find the duplicate number on a given integer array? 
 ```C
 void dublicateNumber() {
 	int arr[5] = {5, 2, 7, 9, 2};
@@ -57,7 +57,7 @@ void dublicateNumber() {
 	}
 }
 ```
-### // How do you find the largest and smallest number in an unsorted integer array?  
+### How do you find the largest and smallest number in an unsorted integer array?  
 ```C
 void maxMinNumber() {
 	int arr[5] = {1, 6, 3, 7, 4};
@@ -77,7 +77,7 @@ void maxMinNumber() {
 	printf("min value: %d, max value: %d", minValue, maxValue);
 }
 ```
-### // How do you find all pairs of an integer array whose sum is equal to a given number?  
+### How do you find all pairs of an integer array whose sum is equal to a given number?  
 ```C
 void findPairs() {
 	int arr[6] = {9, 12, 15, 4, 8, 1};
@@ -93,7 +93,7 @@ void findPairs() {
 	}
 }
 ```
-### // How do you find duplicate numbers in an array if it contains multiple duplicates?
+### How do you find duplicate numbers in an array if it contains multiple duplicates?
 ```C
 void findMultipleDuplicates() {
 	int arr[5] = {5, 2, 7, 5, 2};
@@ -108,7 +108,7 @@ void findMultipleDuplicates() {
 	}	
 }
 ```
-### // How to remove duplicates from a given array?
+### How to remove duplicates from a given array?
 ```C
 void removeDuplicate() {
 	int arr[6] = {5, 7, 2, 5, 9, 3};
@@ -129,47 +129,47 @@ void removeDuplicate() {
 	}
 }
 ```
-### // How do you search a target value in a rotated array?
+### How do you search a target value in a rotated array?
 ```C
 void searchRotated() {
 	
 }
 ```
-### // Given an unsorted array of integers, find the length of the longest consecutive elements sequence? 
+### Given an unsorted array of integers, find the length of the longest consecutive elements sequence? 
 ```C
 void findLongest() {
 	
 }
 ```
-### // How is an integer array sorted in place using the quicksort algorithm?
+### How is an integer array sorted in place using the quicksort algorithm?
 ```C
 void quicksort() {
 	
 }
 ```
-### // How do you remove duplicates from an array in place?  
+### How do you remove duplicates from an array in place?  
 
 // removeDuplicate(); 
 
-### // How do you reverse an array in place?
+### How do you reverse an array in place?
 
-### // How are duplicates removed from an array without using any library?
+### How are duplicates removed from an array without using any library?
 
 // removeDuplicate();
 
-### // How to convert a byte array to String?  
+### How to convert a byte array to String?  
 ```C
 void byteToString() {
 	
 }
 ```
-### // What is the difference between an array and a linked list? (answer)
+### What is the difference between an array and a linked list? (answer)
 
-/* The major difference between Array and Linked list regards to their structure. 
+ The major difference between Array and Linked list regards to their structure. 
 Arrays are index based data structure where each element associated with an index. ... 
-While a linked list is a data structure which contains a sequence of the elements where each element is linked to its next element. */
+While a linked list is a data structure which contains a sequence of the elements where each element is linked to its next element.
 
-### // How do you perform a binary search in a given array?
+### How do you perform a binary search in a given array?
 ```C
 void binarySearch() {
 	int size = 8;
@@ -198,29 +198,29 @@ void binarySearch() {
     }
 }
 ```
-### // How to find a median of two sorts arrays?
+### How to find a median of two sorts arrays?
 ```C
 void findMedian() {
 	
 }
 ```
-### // How to rotate an array left and right by a given number K?
+### How to rotate an array left and right by a given number K?
 ```C
 void rotateArray() {
 	
 }
 ```
-### // How do you find duplicates from an unsorted array? 
+### How do you find duplicates from an unsorted array? 
 
 // findDuplicate();
 
-### // Given an array of integers sorted in ascending order, find the starting and ending position of a given value?
+### Given an array of integers sorted in ascending order, find the starting and ending position of a given value?
 ```C
 void findStartEnd() {
 	
 }
 ```
-### // Given an integer array, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum?
+### Given an integer array, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum?
 ```C
 void contiguousSubarray() {
 	
