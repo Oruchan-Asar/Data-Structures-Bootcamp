@@ -172,9 +172,9 @@ While a linked list is a data structure which contains a sequence of the element
 ### How do you perform a binary search in a given array?
 ```C
 void binarySearch() {
-	int size = 8;
-	int arr[size] = {5, 9, 15, 7, 21, 83, 4, 6};
-	int var = 15;
+    int size = 8;
+    int arr[size] = {5, 9, 15, 7, 21, 83, 4, 6};
+    int var = 15;
 	
     int mid_value = (fir_value + last_value) / 2;
 
