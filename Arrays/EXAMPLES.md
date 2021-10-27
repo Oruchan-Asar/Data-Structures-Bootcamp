@@ -25,7 +25,7 @@ int main() {
 ### // How do you find the missing number in a given integer array of 1 to 100? 
 ```C
 void missingNumber(int num) {
-		int arr[100];
+	int arr[100];
 	int i;
 	for (i = 0; i < 100; i++) {
 		if (i == num) {
