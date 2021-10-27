@@ -229,7 +229,47 @@ void binarySearch() {
 ### How to find a median of two sorts arrays?
 ```C
 void findMedian() {
+	int arr[] = {1, 5, 3, 6, 8, 2, 4, 7};
+        int size = sizeof(arr) / sizeof(arr[0]);	
+	float median;
 	
+	BubbleSort(arr, size);
+	
+	int k;
+	for (k = 0; k < size; k++)
+    {
+        printf("%i, ", arr[k]);
+    }
+    printf("\n");
+    
+    if (size % 2 == 0) {
+    	median = (float)(arr[(size / 2)]+ arr[((size / 2) - 1)]) / 2;
+	} else {
+		median = arr[size / 2];
+	}
+	printf("Median: %f\n", median);
+}
+//
+void swap(int* x, int* y)
+{
+    int tmp = *x;
+    *x = *y;
+    *y = tmp;
+}
+
+void BubbleSort(int* arr, int size)
+{
+    int i, j;
+    for (i = 0; i < size - 1; i++)
+    {
+        for (j = 0; j < size - i - 1; j++)
+        {
+            if (arr[j] > arr[j + 1])
+            {
+                swap(&arr[j], &arr[j + 1]);
+            }
+        }
+    }
 }
 ```
 ### How to rotate an array left and right by a given number K?
