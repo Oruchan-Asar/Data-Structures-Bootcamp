@@ -112,14 +112,17 @@ void findMultipleDuplicates() {
 ```C
 void removeDuplicate() {
 	int arr[6] = {5, 7, 2, 5, 9, 3};
+	int len = 6;
 	
 	int i, j, k;
-	for (i = 0; i < 5; i++) {
-		for (j = i + 1; j < 6; j++) {
+	for (i = 0; i < len - 1; i++) {
+		for (j = i + 1; j < len; j++) {
 			if (arr[i] == arr[j]) {
-				for (k = j; k <= 6; k++) {
+				for (k = j; k <= len; k++) {
 					arr[k] = arr[k + 1];
 				}
+				arr[len - 1] = 0;
+				len--;
 			}
 		}
 	}
@@ -128,6 +131,7 @@ void removeDuplicate() {
 		printf("%d, ", arr[i]);
 	}
 }
+
 ```
 ### How do you search a target value in a rotated array?
 ```C
